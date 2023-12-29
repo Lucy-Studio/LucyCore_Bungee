@@ -22,6 +22,8 @@ class Main: JavaPlugin() {
     override fun onEnable() {
         println("LucyCore_Bungee이(가) 활성화되었습니다.")
 
+        saveDefaultConfig()
+
         Bukkit.getPluginManager().registerEvents(OnCommand(), this)
         Bukkit.getPluginManager().registerEvents(OnJoin(), this)
         getCommand("접속쿨다운")?.setExecutor(CooldownCommand())
