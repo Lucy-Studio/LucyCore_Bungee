@@ -1,0 +1,7 @@
+name: LucyCore_Bungee
+main: io.github.lucystudio.lucycorebungee.Main
+version: 1.0
+api-version: 1.20
+commands:
+  접속쿨다운:
+    description: JoinCooldown Setting Command

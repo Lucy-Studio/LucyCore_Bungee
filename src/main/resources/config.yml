@@ -1,0 +1,20 @@
+# LucyCore_Bungee Configuration File
+# Version: 1.0
+# Copyright 2023. Lucy Studio & ITSK1MLOT All rights reserved.
+
+# 메시지의 색상은 '§'로 입력해야 합니다.
+
+settings:
+  enabled: true
+  cooldown_seconds: 5
+
+permissions:
+  cooldown_setting_command: lucycore.joincooldown
+
+messages:
+  prefix: "§x§a§7§b§2§f§b§l《 §x§b§5§b§e§f§b§lL§x§c§3§c§b§f§b§lU§x§d§1§d§7§f§b§lC§x§d§f§e§4§f§b§lY§x§e§d§f§0§f§b§l 》"
+  cannot_use_message: "§c이전 서버로부터 데이터를 불러오고 있습니다. 잠시만 기다려주세요."
+  cannot_use_in_console: "§c플레이어만 사용할 수 있는 명령어입니다."
+  no_permission: "§c이 명령어를 사용할 권한이 없습니다!"
+  incorrect_command: "§c올바르지 않은 명령어입니다!"
+  config_reload: "§a설정 파일이 리로드되었습니다!"
